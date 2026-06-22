@@ -1,0 +1,34 @@
+[
+  {
+    "name": "NoOne_1",
+    "password": "251525",
+    "pin": "xxjenwitxx@gmail.com",
+    "targetServer": "classic",
+    "autoRespawn": true,
+    "balance": "0"
+  },
+  {
+    "name": "NoOne_2",
+    "password": "251525",
+    "pin": "xxjenwitxx@gmail.com",
+    "targetServer": "classic",
+    "autoRespawn": true,
+    "balance": "0"
+  },
+  {
+    "name": "NoOne_3",
+    "password": "251525",
+    "pin": "xxjenwitxx@gmail.com",
+    "targetServer": "classic",
+    "autoRespawn": true,
+    "balance": "0"
+  },
+  {
+    "name": "NoOne_4",
+    "password": "251525",
+    "pin": "xxjenwitxx@gmail.com",
+    "targetServer": "classic",
+    "autoRespawn": true,
+    "balance": "0"
+  }
+]
