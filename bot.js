@@ -456,10 +456,10 @@ async function createBot(accountConfig, index) {
   bot.on('kicked', (reason) => {
     let reasonText;
     try {
-      const parsed = JSON.parse(reason);
-      reasonText = parsed.text || parsed.extra?.map((e) => e.text).join('') || reason;
+      const parsed = typeof reason === 'string' ? JSON.parse(reason) : reason;
+      reasonText = parsed.text || (parsed.extra ? parsed.extra.map(e => e.text).join('') : JSON.stringify(parsed));
     } catch {
-      reasonText = reason;
+      reasonText = typeof reason === 'object' ? JSON.stringify(reason) : reason;
     }
 
     const reasonStr = String(reasonText);
